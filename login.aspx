@@ -89,7 +89,7 @@ if (HttpContext.Current.Request.HttpMethod == "POST")
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Lembrar usuario da proxima vez
         </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
       </form>
 
     </div> <!-- /container -->

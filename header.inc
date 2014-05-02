@@ -49,7 +49,7 @@ if (Session["user"] == null)
 				<li><a href="#">Funcionarios</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header">Outros</li>
-				<li><a href="#">Medidas</a></li>
+				<li><a href="#">Modelos</a></li>
 				<li><a href="#">Marcas</a></li>
 			  </ul>
 			</li>
@@ -62,7 +62,7 @@ if (Session["user"] == null)
 				<li><a href="#">Funcionarios</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header">Outros</li>
-				<li><a href="#">Medidas</a></li>
+				<li><a href="#">Modelos</a></li>
 				<li><a href="#">Marcas</a></li>
 			  </ul>
 			</li>
@@ -75,7 +75,7 @@ if (Session["user"] == null)
 				<li><a href="#">Funcionarios</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header">Outros</li>
-				<li><a href="#">Medidas</a></li>
+				<li><a href="#">Modelos</a></li>
 				<li><a href="#">Marcas</a></li>
 			  </ul>
 			</li>
@@ -86,7 +86,7 @@ if (Session["user"] == null)
 				<li><a href="#">Preferencias</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header">Outras opcoes</li>
-				<li><a href="#">Opcao 2</a></li>
+				<li><a href="opcao22.aspx">Opcao 2</a></li>
 				<li><a href="#">Opcao 3</a></li>
 			  </ul>
 			</li>
