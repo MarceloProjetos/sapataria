@@ -43,8 +43,8 @@ if (Session["user"] == null)
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros <b class="caret"></b></a>
 			  <ul class="dropdown-menu">
-				<li><a href="/cadastro.aspx">Clientes</a></li>
-				<li><a href="#">Fornecedores</a></li>
+				<li><a href="/CadastroClientes.aspx">Clientes</a></li>
+				<li><a href="/CadastroFornecedores.aspx">Fornecedores</a></li>
 				<li><a href="#">Produtos</a></li>
 				<li><a href="#">Funcionarios</a></li>
 				<li class="divider"></li>
@@ -86,7 +86,7 @@ if (Session["user"] == null)
 				<li><a href="#">Preferencias</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header">Outras opcoes</li>
-				<li><a href="opcao22.aspx">Opcao 2</a></li>
+				<li><a href="opcao2.aspx">Opcao 2</a></li>
 				<li><a href="#">Opcao 3</a></li>
 			  </ul>
 			</li>
