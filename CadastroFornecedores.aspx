@@ -9,34 +9,75 @@
           <fieldset>
             <legend class="text-center">Cadastro de Fornecedores</legend>
     
-            <!-- Name input-->
+<!-- Name input-->
+
             <div class="form-group">
               <label class="col-md-3 control-label" for="name">Nome</label>
               <div class="col-md-9">
-                <input id="name" name="name" type="text" placeholder="Digite o nome do fornecedor" class="form-control">
+                <input id="name" name="name" type="text" placeholder="Digite o nome do Fornecedores" class="form-control">
               </div>
             </div>
-    
+
+            <!-- Name CNPJ-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">CNPJ</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o CNPJ do Fornecedores" class="form-control">
+              </div>
+            </div>
+			
+			<!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Procurar</button>
+              </div>
+            </div>
+			
+			<!-- Name CEP-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">CEP</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o CEP do Fornecedores" class="form-control">
+              </div>
+            </div>
+			
+						
+			<!-- Name Numero-->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">Numero do Endereço</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o Numero do endereço" class="form-control">
+              </div>
+            </div>
+			    
+            <!-- Message Complemento -->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">Complento do Endereço</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Digite o complemento do endereço aqui..." rows="2"></textarea>
+              </div>
+            </div>
+			
             <!-- Email input-->
             <div class="form-group">
-              <label class="col-md-3 control-label" for="email">Email</label>
+              <label class="col-md-2 control-label" for="email">Email</label>
               <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="Digite o email do fornecedor" class="form-control">
+                <input id="email" name="email" type="text" placeholder="Digite o email do Fornecedores" class="form-control">
               </div>
             </div>
     
             <!-- Message body -->
             <div class="form-group">
-              <label class="col-md-3 control-label" for="message">Observações</label>
+              <label class="col-md-2 control-label" for="message">Observações</label>
               <div class="col-md-9">
                 <textarea class="form-control" id="message" name="message" placeholder="Digite as observações aqui..." rows="5"></textarea>
               </div>
             </div>
-    
+			
             <!-- Form actions -->
             <div class="form-group">
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Gravar</button>
+                <button type="submit" class="btn btn-primary btn-lg">Gravar Fornecedores</button>
               </div>
             </div>
           </fieldset>

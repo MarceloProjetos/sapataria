@@ -45,7 +45,7 @@ if (Session["user"] == null)
 			  <ul class="dropdown-menu">
 				<li><a href="/CadastroClientes.aspx">Clientes</a></li>
 				<li><a href="/CadastroFornecedores.aspx">Fornecedores</a></li>
-				<li><a href="#">Produtos</a></li>
+				<li><a href="/CadastroProdutos.aspx">Produtos</a></li>
 				<li><a href="#">Funcionarios</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header">Outros</li>

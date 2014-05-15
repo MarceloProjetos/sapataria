@@ -16,10 +16,51 @@
                 <input id="name" name="name" type="text" placeholder="Digite o nome do cliente" class="form-control">
               </div>
             </div>
-    
+			
+			<!-- Name CPF-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">CPF</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o CPF do cliente" class="form-control">
+              </div>
+            </div>
+			    
+            <!-- Name CNPJ-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">CNPJ</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o CNPJ do cliente" class="form-control">
+              </div>
+            </div>
+			
+			<!-- Name CEP-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">CEP</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o CEP do cliente" class="form-control">
+              </div>
+            </div>
+			
+						
+			<!-- Name Numero-->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">Numero do Endereço</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Digite o Numero do endereço" class="form-control">
+              </div>
+            </div>
+			    
+            <!-- Message Complemento -->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">Complento do Endereço</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Digite o complemento do endereço aqui..." rows="2"></textarea>
+              </div>
+            </div>
+			
             <!-- Email input-->
             <div class="form-group">
-              <label class="col-md-3 control-label" for="email">Email</label>
+              <label class="col-md-2 control-label" for="email">Email</label>
               <div class="col-md-9">
                 <input id="email" name="email" type="text" placeholder="Digite o email do cliente" class="form-control">
               </div>
@@ -27,7 +68,7 @@
     
             <!-- Message body -->
             <div class="form-group">
-              <label class="col-md-3 control-label" for="message">Observações</label>
+              <label class="col-md-2 control-label" for="message">Observações</label>
               <div class="col-md-9">
                 <textarea class="form-control" id="message" name="message" placeholder="Digite as observações aqui..." rows="5"></textarea>
               </div>
